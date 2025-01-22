@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .MuiTypography-root {
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.activeButton {
+    color: #22e02e; 
+}
+
+
+.navbar .MuiButton-root:hover {
+    background-color: inherit;
+    color:#22e02e;
+}
+
+.navbar .MuiButton-root {
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.navbar {
+    background-color: white;
+    color: black;
+}
+
+
+.buttons {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
